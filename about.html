@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 1em;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 2em;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <!-- Anti-Clickjacking JavaScript -->
+  <script>
+    if (window.top !== window.self) {
+      window.top.location = window.location.href;
+    }
+  </script>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content -->
+  <div class="content">
+    <h1>About Us</h1>
+    <p>
+      Welcome to our company! We are dedicated to delivering the best services to our clients. 
+      Our mission is to provide innovative solutions that empower businesses to grow and succeed.
+    </p>
+    <p>
+      Our team is composed of experienced professionals who are passionate about their work. 
+      Together, we aim to exceed expectations and set new standards of excellence in the industry.
+    </p>
+  </div>
+</body>
+</html>
